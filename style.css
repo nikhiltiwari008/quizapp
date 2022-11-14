@@ -385,5 +385,15 @@ footer button.show{
 }
 .result_box h4{
     text-decoration: none;
+}
 
+
+@media  (max-width: 414px)
+{   
+.info_box,
+.quiz_box,
+.result_box
+{
+  width: 90%;
+}
 }
